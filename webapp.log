@@ -1,1 +1,1951 @@
 2021/04/15 09:26:46 main.go:15: test
+2021/04/19 16:25:14 users.go:102: table sessions has no column named uuid
+2021/04/19 16:25:15 main.go:20: no such column: uuid
+2021/04/19 16:30:12 users.go:102: table sessions has no column named uuid
+2021/04/19 16:30:12 main.go:20: no such column: uuid
+2021/04/19 16:38:38 users.go:102: table sessions has no column named uuid
+2021/04/19 16:38:38 main.go:20: no such column: uuid
+2021/04/19 16:41:14 users.go:102: table sessions has no column named uuid
+2021/04/19 16:41:14 main.go:20: no such column: uuid
+2021/04/19 16:46:07 users.go:102: table sessions has no column named uuid
+2021/04/19 16:46:07 main.go:20: no such column: uuid
+2021/04/19 16:46:23 users.go:102: no such table: sessions
+2021/04/19 16:46:23 main.go:20: no such table: sessions
+2021/04/19 16:53:38 users.go:102: table sessions has no column named email
+2021/04/19 16:53:38 main.go:20: no such column: email
+2021/04/21 13:38:01 server.go:3139: http: panic serving [::1]:61332: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 20 [running]:
+net/http.(*conn).serve.func1(0xc0000a9540)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000106a50)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0000761c0, 0x0, 0x0, 0xc0000a3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0000761c0, 0xc000072100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0000761c0, 0xc000072100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0000761c0, 0xc000072100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0000761c0, 0xc000072100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a9540, 0x993640, 0xc000108000)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:01 server.go:3139: http: panic serving [::1]:61333: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 21 [running]:
+net/http.(*conn).serve.func1(0xc0000a95e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc00001b260)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc00020a540, 0x0, 0x0, 0xc000293aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc00020a540, 0xc000202000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc00020a540, 0xc000202000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc00020a540, 0xc000202000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc00020a540, 0xc000202000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a95e0, 0x993640, 0xc00001e080)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:01 server.go:3139: http: panic serving [::1]:61338: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 51 [running]:
+net/http.(*conn).serve.func1(0xc000124140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc00001b3b0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001440e0, 0x0, 0x0, 0xc0000a3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001440e0, 0xc000072300)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001440e0, 0xc000072300)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001440e0, 0xc000072300)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001440e0, 0xc000072300)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000124140, 0x993640, 0xc00001e880)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:02 server.go:3139: http: panic serving [::1]:61339: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 54 [running]:
+net/http.(*conn).serve.func1(0xc0001241e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000107530)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001441c0, 0x0, 0x0, 0xc00028faa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001441c0, 0xc000202700)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001441c0, 0xc000202700)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001441c0, 0xc000202700)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001441c0, 0xc000202700)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001241e0, 0x993640, 0xc000204fc0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:02 server.go:3139: http: panic serving [::1]:61340: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 66 [running]:
+net/http.(*conn).serve.func1(0xc00025a460)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0002668a0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001442a0, 0x0, 0x0, 0xc000323aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001442a0, 0xc00011c500)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001442a0, 0xc00011c500)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001442a0, 0xc00011c500)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001442a0, 0xc00011c500)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00025a460, 0x993640, 0xc000108480)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:02 server.go:3139: http: panic serving [::1]:61341: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 67 [running]:
+net/http.(*conn).serve.func1(0xc00025a500)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc00001b470)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc00020a620, 0x0, 0x0, 0xc000323aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc00020a620, 0xc000072400)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc00020a620, 0xc000072400)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc00020a620, 0xc000072400)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc00020a620, 0xc000072400)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00025a500, 0x993640, 0xc00001ea40)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:07 server.go:3139: http: panic serving [::1]:61344: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 70 [running]:
+net/http.(*conn).serve.func1(0xc00025a5a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000107b00)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc00020a700, 0x0, 0x0, 0xc0000a3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc00020a700, 0xc000202800)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc00020a700, 0xc000202800)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc00020a700, 0xc000202800)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc00020a700, 0xc000202800)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00025a5a0, 0x993640, 0xc000205340)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:07 server.go:3139: http: panic serving [::1]:61345: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 59 [running]:
+net/http.(*conn).serve.func1(0xc000124280)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc00001b9b0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0000762a0, 0x0, 0x0, 0xc000293aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0000762a0, 0xc00011c600)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0000762a0, 0xc00011c600)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0000762a0, 0xc00011c600)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0000762a0, 0xc00011c600)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000124280, 0x993640, 0xc000108940)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:07 server.go:3139: http: panic serving [::1]:61346: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 73 [running]:
+net/http.(*conn).serve.func1(0xc00025a640)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000267440)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000076380, 0x0, 0x0, 0xc000293aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000076380, 0xc000072500)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000076380, 0xc000072500)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000076380, 0xc000072500)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000076380, 0xc000072500)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00025a640, 0x993640, 0xc00001edc0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:23 server.go:3139: http: panic serving [::1]:61348: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 14 [running]:
+net/http.(*conn).serve.func1(0xc000064140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0003380f0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000144380, 0x0, 0x0, 0xc00028faa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000144380, 0xc000072600)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000144380, 0xc000072600)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000144380, 0xc000072600)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000144380, 0xc000072600)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000064140, 0x993640, 0xc000108a40)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:23 server.go:3139: http: panic serving [::1]:61349: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 15 [running]:
+net/http.(*conn).serve.func1(0xc0000641e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0003e6240)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc00020a7e0, 0x0, 0x0, 0xc000293aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc00020a7e0, 0xc00011c800)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc00020a7e0, 0xc00011c800)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc00020a7e0, 0xc00011c800)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc00020a7e0, 0xc00011c800)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000641e0, 0x993640, 0xc000108ac0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:23 server.go:3139: http: panic serving [::1]:61350: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 62 [running]:
+net/http.(*conn).serve.func1(0xc000124320)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0003e67e0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000076540, 0x0, 0x0, 0xc000293aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000076540, 0xc000072700)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000076540, 0xc000072700)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000076540, 0xc000072700)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000076540, 0xc000072700)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000124320, 0x993640, 0xc00001f180)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:24 server.go:3139: http: panic serving [::1]:61353: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 63 [running]:
+net/http.(*conn).serve.func1(0xc0001243c0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000338420)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000076620, 0x0, 0x0, 0xc00028faa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000076620, 0xc000202b00)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000076620, 0xc000202b00)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000076620, 0xc000202b00)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000076620, 0xc000202b00)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001243c0, 0x993640, 0xc000205800)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:24 server.go:3139: http: panic serving [::1]:61354: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 64 [running]:
+net/http.(*conn).serve.func1(0xc000124460)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0003389c0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000144540, 0x0, 0x0, 0xc00028faa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000144540, 0xc000202a00)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000144540, 0xc000202a00)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000144540, 0xc000202a00)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000144540, 0xc000202a00)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000124460, 0x993640, 0xc000205880)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:24 server.go:3139: http: panic serving [::1]:61355: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 76 [running]:
+net/http.(*conn).serve.func1(0xc00025a6e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000267f50)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc00020a8c0, 0x0, 0x0, 0xc000293aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc00020a8c0, 0xc00011cb00)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc00020a8c0, 0xc00011cb00)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc00020a8c0, 0xc00011cb00)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc00020a8c0, 0xc00011cb00)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00025a6e0, 0x993640, 0xc000109140)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:25 server.go:3139: http: panic serving [::1]:61356: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 79 [running]:
+net/http.(*conn).serve.func1(0xc00025a780)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000338b10)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc00020a9a0, 0x0, 0x0, 0xc000293aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc00020a9a0, 0xc00011cc00)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc00020a9a0, 0xc00011cc00)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc00020a9a0, 0xc00011cc00)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc00020a9a0, 0xc00011cc00)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00025a780, 0x993640, 0xc0001091c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:25 server.go:3139: http: panic serving [::1]:61357: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 86 [running]:
+net/http.(*conn).serve.func1(0xc000064280)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0003e6e10)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000144620, 0x0, 0x0, 0xc000293aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000144620, 0xc000072900)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000144620, 0xc000072900)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000144620, 0xc000072900)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000144620, 0xc000072900)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000064280, 0x993640, 0xc00001f600)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:25 server.go:3139: http: panic serving [::1]:61358: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 87 [running]:
+net/http.(*conn).serve.func1(0xc000064320)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0003e7350)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000076700, 0x0, 0x0, 0xc000293aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000076700, 0xc000202e00)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000076700, 0xc000202e00)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000076700, 0xc000202e00)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000076700, 0xc000202e00)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000064320, 0x993640, 0xc000205d40)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:26 server.go:3139: http: panic serving [::1]:61359: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 102 [running]:
+net/http.(*conn).serve.func1(0xc000124500)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0004845d0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001447e0, 0x0, 0x0, 0xc000323aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001447e0, 0xc000072b00)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001447e0, 0xc000072b00)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001447e0, 0xc000072b00)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001447e0, 0xc000072b00)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000124500, 0x993640, 0xc00001f9c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:26 server.go:3139: http: panic serving [::1]:61360: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 103 [running]:
+net/http.(*conn).serve.func1(0xc0001245a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000484630)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001449a0, 0x0, 0x0, 0xc00028faa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001449a0, 0xc000072c00)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001449a0, 0xc000072c00)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001449a0, 0xc000072c00)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001449a0, 0xc000072c00)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001245a0, 0x993640, 0xc00001fa40)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:26 server.go:3139: http: panic serving [::1]:61361: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 108 [running]:
+net/http.(*conn).serve.func1(0xc000124640)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000339ec0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000144b60, 0x0, 0x0, 0xc00028faa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000144b60, 0xc000072d00)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000144b60, 0xc000072d00)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000144b60, 0xc000072d00)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000144b60, 0xc000072d00)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000124640, 0x993640, 0xc00001fb80)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:27 server.go:3139: http: panic serving [::1]:61362: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 130 [running]:
+net/http.(*conn).serve.func1(0xc000124000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0003e60c0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000144000, 0x0, 0x0, 0xc0000a3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000144000, 0xc000072000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000144000, 0xc000072000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000144000, 0xc000072000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000144000, 0xc000072000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000124000, 0x993640, 0xc00001e040)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:27 server.go:3139: http: panic serving [::1]:61363: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 94 [running]:
+net/http.(*conn).serve.func1(0xc0000a8000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0000c9710)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001aa0e0, 0x0, 0x0, 0xc0000a7aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001aa0e0, 0xc000072100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001aa0e0, 0xc000072100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001aa0e0, 0xc000072100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001aa0e0, 0xc000072100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a8000, 0x993640, 0xc00001e100)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:27 server.go:3139: http: panic serving [::1]:61364: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 146 [running]:
+net/http.(*conn).serve.func1(0xc000596000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000484b70)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001440e0, 0x0, 0x0, 0xc0004c3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001440e0, 0xc000072200)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001440e0, 0xc000072200)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001440e0, 0xc000072200)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001440e0, 0xc000072200)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000596000, 0x993640, 0xc00001e3c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:27 server.go:3139: http: panic serving [::1]:61365: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 147 [running]:
+net/http.(*conn).serve.func1(0xc0005960a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000485080)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001442a0, 0x0, 0x0, 0xc0004c3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001442a0, 0xc000202000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001442a0, 0xc000202000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001442a0, 0xc000202000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001442a0, 0xc000202000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0005960a0, 0x993640, 0xc0002040c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:27 server.go:3139: http: panic serving [::1]:61366: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 131 [running]:
+net/http.(*conn).serve.func1(0xc0001240a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000200180)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000144460, 0x0, 0x0, 0xc0004c3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000144460, 0xc0005a6000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000144460, 0xc0005a6000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000144460, 0xc0005a6000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000144460, 0xc0005a6000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001240a0, 0x993640, 0xc0000ee000)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:27 server.go:3139: http: panic serving [::1]:61367: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 132 [running]:
+net/http.(*conn).serve.func1(0xc000124140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0003e6780)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0005760e0, 0x0, 0x0, 0xc0000a3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0005760e0, 0xc000072300)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0005760e0, 0xc000072300)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0005760e0, 0xc000072300)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0005760e0, 0xc000072300)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000124140, 0x993640, 0xc00001ea40)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:28 server.go:3139: http: panic serving [::1]:61368: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 95 [running]:
+net/http.(*conn).serve.func1(0xc0000a8140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0002007b0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0005e00e0, 0x0, 0x0, 0xc0000a3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0005e00e0, 0xc0005a6100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0005e00e0, 0xc0005a6100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0005e00e0, 0xc0005a6100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0005e00e0, 0xc0005a6100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a8140, 0x993640, 0xc0000ee540)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:28 server.go:3139: http: panic serving [::1]:61369: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 148 [running]:
+net/http.(*conn).serve.func1(0xc000596140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000485620)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001aa2a0, 0x0, 0x0, 0xc0004bfaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001aa2a0, 0xc000202100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001aa2a0, 0xc000202100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001aa2a0, 0xc000202100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001aa2a0, 0xc000202100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000596140, 0x993640, 0xc000204400)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:28 server.go:3139: http: panic serving [::1]:61370: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 123 [running]:
+net/http.(*conn).serve.func1(0xc0000b4000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0000c9d40)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000144620, 0x0, 0x0, 0xc0004bfaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000144620, 0xc0005a6200)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000144620, 0xc0005a6200)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000144620, 0xc0005a6200)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000144620, 0xc0005a6200)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000b4000, 0x993640, 0xc0000ee840)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:29 server.go:3139: http: panic serving [::1]:61371: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 126 [running]:
+net/http.(*conn).serve.func1(0xc0000b40a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0000c9e90)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0005e02a0, 0x0, 0x0, 0xc0000a7aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0005e02a0, 0xc0001fc000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0005e02a0, 0xc0001fc000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0005e02a0, 0xc0001fc000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0005e02a0, 0xc0001fc000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000b40a0, 0x993640, 0xc0001085c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:29 server.go:3139: http: panic serving [::1]:61372: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 26 [running]:
+net/http.(*conn).serve.func1(0xc0001fe000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0003380f0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001447e0, 0x0, 0x0, 0xc0000a7aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001447e0, 0xc0005a6300)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001447e0, 0xc0005a6300)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001447e0, 0xc0005a6300)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001447e0, 0xc0005a6300)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001fe000, 0x993640, 0xc0000ee900)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:29 server.go:3139: http: panic serving [::1]:61373: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 135 [running]:
+net/http.(*conn).serve.func1(0xc0001241e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0003e6de0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0005762a0, 0x0, 0x0, 0xc0004bfaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0005762a0, 0xc000072400)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0005762a0, 0xc000072400)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0005762a0, 0xc000072400)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0005762a0, 0xc000072400)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001241e0, 0x993640, 0xc00001ef00)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:30 server.go:3139: http: panic serving [::1]:61374: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 153 [running]:
+net/http.(*conn).serve.func1(0xc0005961e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000338750)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000214000, 0x0, 0x0, 0xc0004bfaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000214000, 0xc000184000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000214000, 0xc000184000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000214000, 0xc000184000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000214000, 0xc000184000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0005961e0, 0x993640, 0xc00044a080)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:30 server.go:3139: http: panic serving [::1]:61375: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 96 [running]:
+net/http.(*conn).serve.func1(0xc0000a8280)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000338cc0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0002140e0, 0x0, 0x0, 0xc0004bfaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0002140e0, 0xc0005a6400)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0002140e0, 0xc0005a6400)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0002140e0, 0xc0005a6400)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0002140e0, 0xc0005a6400)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a8280, 0x993640, 0xc0000eeb40)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:30 server.go:3139: http: panic serving [::1]:61376: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 129 [running]:
+net/http.(*conn).serve.func1(0xc0000b4140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc00001a600)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001448c0, 0x0, 0x0, 0xc0004bfaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001448c0, 0xc000184100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001448c0, 0xc000184100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001448c0, 0xc000184100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001448c0, 0xc000184100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000b4140, 0x993640, 0xc00044a600)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:33 server.go:3139: http: panic serving [::1]:61377: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 180 [running]:
+net/http.(*conn).serve.func1(0xc0000b41e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000339530)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000214460, 0x0, 0x0, 0xc000265aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000214460, 0xc000184400)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000214460, 0xc000184400)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000214460, 0xc000184400)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000214460, 0xc000184400)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000b41e0, 0x993640, 0xc00044a700)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:33 server.go:3139: http: panic serving [::1]:61378: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 181 [running]:
+net/http.(*conn).serve.func1(0xc0000b4280)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000200ea0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000214620, 0x0, 0x0, 0xc000265aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000214620, 0xc000184300)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000214620, 0xc000184300)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000214620, 0xc000184300)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000214620, 0xc000184300)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000b4280, 0x993640, 0xc00044a780)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:33 server.go:3139: http: panic serving [::1]:61379: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 182 [running]:
+net/http.(*conn).serve.func1(0xc0000b4320)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000339b30)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000144c40, 0x0, 0x0, 0xc0004bfaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000144c40, 0xc0005a6500)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000144c40, 0xc0005a6500)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000144c40, 0xc0005a6500)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000144c40, 0xc0005a6500)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000b4320, 0x993640, 0xc0000eecc0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:34 server.go:3139: http: panic serving [::1]:61380: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 170 [running]:
+net/http.(*conn).serve.func1(0xc0000a83c0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc00001ac60)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000214700, 0x0, 0x0, 0xc0004bfaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000214700, 0xc000184500)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000214700, 0xc000184500)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000214700, 0xc000184500)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000214700, 0xc000184500)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a83c0, 0x993640, 0xc00044ad80)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:34 server.go:3139: http: panic serving [::1]:61381: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 171 [running]:
+net/http.(*conn).serve.func1(0xc0000a8460)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0002014a0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0005e0380, 0x0, 0x0, 0xc0004bfaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0005e0380, 0xc000072500)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0005e0380, 0xc000072500)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0005e0380, 0xc000072500)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0005e0380, 0xc000072500)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a8460, 0x993640, 0xc00001f280)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:34 server.go:3139: http: panic serving [::1]:61382: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 156 [running]:
+net/http.(*conn).serve.func1(0xc000596280)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000201a70)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0005e0460, 0x0, 0x0, 0xc0004bfaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0005e0460, 0xc000072600)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0005e0460, 0xc000072600)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0005e0460, 0xc000072600)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0005e0460, 0xc000072600)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000596280, 0x993640, 0xc00001f3c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:39 server.go:3139: http: panic serving [::1]:61383: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 159 [running]:
+net/http.(*conn).serve.func1(0xc000596320)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000201c80)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0002147e0, 0x0, 0x0, 0xc000261aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0002147e0, 0xc0005a6600)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0002147e0, 0xc0005a6600)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0002147e0, 0xc0005a6600)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0002147e0, 0xc0005a6600)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000596320, 0x993640, 0xc0000ef2c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:39 server.go:3139: http: panic serving [::1]:61384: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 185 [running]:
+net/http.(*conn).serve.func1(0xc0000b43c0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0001060c0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001aa0e0, 0x0, 0x0, 0xc00007baa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001aa0e0, 0xc0005a6700)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001aa0e0, 0xc0005a6700)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001aa0e0, 0xc0005a6700)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001aa0e0, 0xc0005a6700)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000b43c0, 0x993640, 0xc0000ef340)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:39 server.go:3139: http: panic serving [::1]:61385: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 176 [running]:
+net/http.(*conn).serve.func1(0xc0000a8000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000106210)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000214000, 0x0, 0x0, 0xc000077aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000214000, 0xc0005a6000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000214000, 0xc0005a6000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000214000, 0xc0005a6000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000214000, 0xc0005a6000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a8000, 0x993640, 0xc00044a000)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:40 server.go:3139: http: panic serving [::1]:61386: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 177 [running]:
+net/http.(*conn).serve.func1(0xc0000a8140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000106360)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001260e0, 0x0, 0x0, 0xc00007baa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001260e0, 0xc000114200)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001260e0, 0xc000114200)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001260e0, 0xc000114200)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001260e0, 0xc000114200)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a8140, 0x993640, 0xc00001e040)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:40 server.go:3139: http: panic serving [::1]:61387: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 140 [running]:
+net/http.(*conn).serve.func1(0xc0000b4000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0000c9ce0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001aa2a0, 0x0, 0x0, 0xc00007baa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001aa2a0, 0xc000114100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001aa2a0, 0xc000114100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001aa2a0, 0xc000114100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001aa2a0, 0xc000114100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000b4000, 0x993640, 0xc00001e100)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:40 server.go:3139: http: panic serving [::1]:61388: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 29 [running]:
+net/http.(*conn).serve.func1(0xc000596000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc0002006c0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0002920e0, 0x0, 0x0, 0xc00007baa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0002920e0, 0xc00028c000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0002920e0, 0xc00028c000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0002920e0, 0xc00028c000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0002920e0, 0xc00028c000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000596000, 0x993640, 0xc000108240)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:41 server.go:3139: http: panic serving [::1]:61389: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 189 [running]:
+net/http.(*conn).serve.func1(0xc0000a4000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000484300)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001aa380, 0x0, 0x0, 0xc000077aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001aa380, 0xc0001f2000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001aa380, 0xc0001f2000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001aa380, 0xc0001f2000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001aa380, 0xc0001f2000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a4000, 0x993640, 0xc000204480)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:41 server.go:3139: http: panic serving [::1]:61390: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 143 [running]:
+net/http.(*conn).serve.func1(0xc0000b40a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000484420)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001261c0, 0x0, 0x0, 0xc00007baa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001261c0, 0xc0005a6100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001261c0, 0xc0005a6100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001261c0, 0xc0005a6100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001261c0, 0xc0005a6100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000b40a0, 0x993640, 0xc00044a300)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:41 server.go:3139: http: panic serving [::1]:61391: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 210 [running]:
+net/http.(*conn).serve.func1(0xc0000b4140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000200c00)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001aa460, 0x0, 0x0, 0xc00007baa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001aa460, 0xc000114300)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001aa460, 0xc000114300)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001aa460, 0xc000114300)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001aa460, 0xc000114300)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000b4140, 0x993640, 0xc00001e680)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:46 server.go:3139: http: panic serving [::1]:61392: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 32 [running]:
+net/http.(*conn).serve.func1(0xc0005960a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000200db0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0001aa540, 0x0, 0x0, 0xc000077aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0001aa540, 0xc0005a6200)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0001aa540, 0xc0005a6200)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0001aa540, 0xc0005a6200)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0001aa540, 0xc0005a6200)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0005960a0, 0x993640, 0xc00044a3c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:46 server.go:3139: http: panic serving [::1]:61393: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 33 [running]:
+net/http.(*conn).serve.func1(0xc000596140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000484ed0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc0002142a0, 0x0, 0x0, 0xc0000d3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc0002142a0, 0xc000114400)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc0002142a0, 0xc000114400)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc0002142a0, 0xc000114400)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc0002142a0, 0xc000114400)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000596140, 0x993640, 0xc00001e7c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:38:46 server.go:3139: http: panic serving [::1]:61394: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 226 [running]:
+net/http.(*conn).serve.func1(0xc0005961e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x8bf2e0, 0xc000200f30)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x992ee0, 0xc000214380, 0x0, 0x0, 0xc0000d3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x992ee0, 0xc000214380, 0xc000114500)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x9354e8, 0x992ee0, 0xc000214380, 0xc000114500)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xb6f620, 0x992ee0, 0xc000214380, 0xc000114500)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001aa000, 0x992ee0, 0xc000214380, 0xc000114500)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0005961e0, 0x993640, 0xc00001e940)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:39:01 server.go:3139: http: panic serving [::1]:61402: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 7 [running]:
+net/http.(*conn).serve.func1(0xc000067400)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xcbf2e0, 0xc00008c660)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xd92ee0, 0xc0000a42a0, 0x0, 0x0, 0xc000061aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0xd92ee0, 0xc0000a42a0, 0xc0000a0100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0xd354e8, 0xd92ee0, 0xc0000a42a0, 0xc0000a0100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xf6f620, 0xd92ee0, 0xc0000a42a0, 0xc0000a0100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0xd92ee0, 0xc0000a42a0, 0xc0000a0100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000067400, 0xd93640, 0xc00008e000)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:39:01 server.go:3139: http: panic serving [::1]:61403: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 18 [running]:
+net/http.(*conn).serve.func1(0xc000188000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xcbf2e0, 0xc00008c750)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xd92ee0, 0xc0001541c0, 0x0, 0x0, 0xc000065aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0xd92ee0, 0xc0001541c0, 0xc0001a2000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0xd354e8, 0xd92ee0, 0xc0001541c0, 0xc0001a2000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xf6f620, 0xd92ee0, 0xc0001541c0, 0xc0001a2000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0xd92ee0, 0xc0001541c0, 0xc0001a2000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000188000, 0xd93640, 0xc00019a000)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:39:01 server.go:3139: http: panic serving [::1]:61404: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 19 [running]:
+net/http.(*conn).serve.func1(0xc0001880a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xcbf2e0, 0xc00008c8d0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xd92ee0, 0xc0001aa0e0, 0x0, 0x0, 0xc0001c7aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0xd92ee0, 0xc0001aa0e0, 0xc0000a0300)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0xd354e8, 0xd92ee0, 0xc0001aa0e0, 0xc0000a0300)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xf6f620, 0xd92ee0, 0xc0001aa0e0, 0xc0000a0300)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0xd92ee0, 0xc0001aa0e0, 0xc0000a0300)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001880a0, 0xd93640, 0xc00008e4c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:39:02 server.go:3139: http: panic serving [::1]:61405: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 22 [running]:
+net/http.(*conn).serve.func1(0xc000188140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xcbf2e0, 0xc00007bbf0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xd92ee0, 0xc0001aa1c0, 0x0, 0x0, 0xc000065aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0xd92ee0, 0xc0001aa1c0, 0xc0000a0400)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0xd354e8, 0xd92ee0, 0xc0001aa1c0, 0xc0000a0400)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xf6f620, 0xd92ee0, 0xc0001aa1c0, 0xc0000a0400)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0xd92ee0, 0xc0001aa1c0, 0xc0000a0400)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000188140, 0xd93640, 0xc00008e600)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:39:02 server.go:3139: http: panic serving [::1]:61406: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 23 [running]:
+net/http.(*conn).serve.func1(0xc0001881e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xcbf2e0, 0xc00028e180)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xd92ee0, 0xc0001542a0, 0x0, 0x0, 0xc000065aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0xd92ee0, 0xc0001542a0, 0xc0000a0500)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0xd354e8, 0xd92ee0, 0xc0001542a0, 0xc0000a0500)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xf6f620, 0xd92ee0, 0xc0001542a0, 0xc0000a0500)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0xd92ee0, 0xc0001542a0, 0xc0000a0500)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001881e0, 0xd93640, 0xc00008e680)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:39:02 server.go:3139: http: panic serving [::1]:61407: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 26 [running]:
+net/http.(*conn).serve.func1(0xc000188280)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xcbf2e0, 0xc00008cab0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xd92ee0, 0xc0001aa2a0, 0x0, 0x0, 0xc0001c3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0xd92ee0, 0xc0001aa2a0, 0xc000118100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0xd354e8, 0xd92ee0, 0xc0001aa2a0, 0xc000118100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xf6f620, 0xd92ee0, 0xc0001aa2a0, 0xc000118100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0xd92ee0, 0xc0001aa2a0, 0xc000118100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000188280, 0xd93640, 0xc00001ea40)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:39:07 server.go:3139: http: panic serving [::1]:61408: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 37 [running]:
+net/http.(*conn).serve.func1(0xc000258000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xcbf2e0, 0xc00028e2d0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xd92ee0, 0xc0000a4380, 0x0, 0x0, 0xc0001c3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0xd92ee0, 0xc0000a4380, 0xc0001a2200)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0xd354e8, 0xd92ee0, 0xc0000a4380, 0xc0001a2200)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xf6f620, 0xd92ee0, 0xc0000a4380, 0xc0001a2200)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0xd92ee0, 0xc0000a4380, 0xc0001a2200)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000258000, 0xd93640, 0xc00019a580)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:39:07 server.go:3139: http: panic serving [::1]:61409: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 38 [running]:
+net/http.(*conn).serve.func1(0xc0002580a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xcbf2e0, 0xc00008d620)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xd92ee0, 0xc0000a4460, 0x0, 0x0, 0xc0001c3aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0xd92ee0, 0xc0000a4460, 0xc0000a0600)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0xd354e8, 0xd92ee0, 0xc0000a4460, 0xc0000a0600)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xf6f620, 0xd92ee0, 0xc0000a4460, 0xc0000a0600)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0xd92ee0, 0xc0000a4460, 0xc0000a0600)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0002580a0, 0xd93640, 0xc00008e840)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:39:07 server.go:3139: http: panic serving [::1]:61410: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 12 [running]:
+net/http.(*conn).serve.func1(0xc0000674a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xcbf2e0, 0xc0001850e0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xd92ee0, 0xc0000a4540, 0x0, 0x0, 0xc000061aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0xd92ee0, 0xc0000a4540, 0xc000118200)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0xd354e8, 0xd92ee0, 0xc0000a4540, 0xc000118200)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xf6f620, 0xd92ee0, 0xc0000a4540, 0xc000118200)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0xd92ee0, 0xc0000a4540, 0xc000118200)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000674a0, 0xd93640, 0xc00001eb40)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:40:17 server.go:3139: http: panic serving [::1]:61474: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 50 [running]:
+net/http.(*conn).serve.func1(0xc000208000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x6df2e0, 0xc0002041b0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x7b2ee0, 0xc0001540e0, 0x0, 0x0, 0xc000243aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x7b2ee0, 0xc0001540e0, 0xc000118300)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x7554e8, 0x7b2ee0, 0xc0001540e0, 0xc000118300)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x98f620, 0x7b2ee0, 0xc0001540e0, 0xc000118300)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0x7b2ee0, 0xc0001540e0, 0xc000118300)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000208000, 0x7b3640, 0xc0000920c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:40:17 server.go:3139: http: panic serving [::1]:61471: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 7 [running]:
+net/http.(*conn).serve.func1(0xc000067400)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x6df2e0, 0xc00007bd10)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x7b2ee0, 0xc0001541c0, 0x0, 0x0, 0xc000243aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x7b2ee0, 0xc0001541c0, 0xc000096300)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x7554e8, 0x7b2ee0, 0xc0001541c0, 0xc000096300)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x98f620, 0x7b2ee0, 0xc0001541c0, 0xc000096300)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0x7b2ee0, 0xc0001541c0, 0xc000096300)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000067400, 0x7b3640, 0xc00001e540)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:40:17 server.go:3139: http: panic serving [::1]:61473: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 34 [running]:
+net/http.(*conn).serve.func1(0xc00009e000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x6df2e0, 0xc0002046f0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x7b2ee0, 0xc0001d0000, 0x0, 0x0, 0xc00023faa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x7b2ee0, 0xc0001d0000, 0xc0001c6900)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x7554e8, 0x7b2ee0, 0xc0001d0000, 0xc0001c6900)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x98f620, 0x7b2ee0, 0xc0001d0000, 0xc0001c6900)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0x7b2ee0, 0xc0001d0000, 0xc0001c6900)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00009e000, 0x7b3640, 0xc00001e7c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:40:17 server.go:3139: http: panic serving [::1]:61472: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 10 [running]:
+net/http.(*conn).serve.func1(0xc0000674a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x6df2e0, 0xc0002047e0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x7b2ee0, 0xc0001542a0, 0x0, 0x0, 0xc00023faa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x7b2ee0, 0xc0001542a0, 0xc000096200)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x7554e8, 0x7b2ee0, 0xc0001542a0, 0xc000096200)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x98f620, 0x7b2ee0, 0xc0001542a0, 0xc000096200)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0x7b2ee0, 0xc0001542a0, 0xc000096200)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000674a0, 0x7b3640, 0xc000092000)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:40:17 server.go:3139: http: panic serving [::1]:61476: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 116 [running]:
+net/http.(*conn).serve.func1(0xc00009e140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x6df2e0, 0xc000180210)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x7b2ee0, 0xc0001d00e0, 0x0, 0x0, 0xc00023faa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x7b2ee0, 0xc0001d00e0, 0xc0001c6000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x7554e8, 0x7b2ee0, 0xc0001d00e0, 0xc0001c6000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x98f620, 0x7b2ee0, 0xc0001d00e0, 0xc0001c6000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0x7b2ee0, 0xc0001d00e0, 0xc0001c6000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00009e140, 0x7b3640, 0xc000188000)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:40:18 server.go:3139: http: panic serving [::1]:61479: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 119 [running]:
+net/http.(*conn).serve.func1(0xc00009e1e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x6df2e0, 0xc0003d8420)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x7b2ee0, 0xc0004be000, 0x0, 0x0, 0xc0004cdaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x7b2ee0, 0xc0004be000, 0xc000096600)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x7554e8, 0x7b2ee0, 0xc0004be000, 0xc000096600)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x98f620, 0x7b2ee0, 0xc0004be000, 0xc000096600)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0x7b2ee0, 0xc0004be000, 0xc000096600)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00009e1e0, 0x7b3640, 0xc000092780)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:40:23 server.go:3139: http: panic serving [::1]:61480: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 120 [running]:
+net/http.(*conn).serve.func1(0xc00009e280)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x6df2e0, 0xc000488810)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x7b2ee0, 0xc000128000, 0x0, 0x0, 0xc0004c9aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x7b2ee0, 0xc000128000, 0xc000096700)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x7554e8, 0x7b2ee0, 0xc000128000, 0xc000096700)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x98f620, 0x7b2ee0, 0xc000128000, 0xc000096700)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0x7b2ee0, 0xc000128000, 0xc000096700)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00009e280, 0x7b3640, 0xc000092880)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:40:53 server.go:3139: http: panic serving [::1]:61481: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 94 [running]:
+net/http.(*conn).serve.func1(0xc000066000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x6df2e0, 0xc000488d80)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x7b2ee0, 0xc0001280e0, 0x0, 0x0, 0xc0004c9aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x7b2ee0, 0xc0001280e0, 0xc000096800)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x7554e8, 0x7b2ee0, 0xc0001280e0, 0xc000096800)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x98f620, 0x7b2ee0, 0xc0001280e0, 0xc000096800)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0x7b2ee0, 0xc0001280e0, 0xc000096800)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000066000, 0x7b3640, 0xc000092900)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:41:53 server.go:3139: http: panic serving [::1]:61499: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 15 [running]:
+net/http.(*conn).serve.func1(0xc0001b6000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x6df2e0, 0xc000205230)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x7b2ee0, 0xc0001d01c0, 0x0, 0x0, 0xc0004cdaa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x7b2ee0, 0xc0001d01c0, 0xc0001c6100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x7554e8, 0x7b2ee0, 0xc0001d01c0, 0xc0001c6100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x98f620, 0x7b2ee0, 0xc0001d01c0, 0xc0001c6100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0x7b2ee0, 0xc0001d01c0, 0xc0001c6100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001b6000, 0x7b3640, 0xc000188900)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 13:42:25 server.go:3139: http: panic serving [::1]:61503: open app/views/templates/private_navbar.html: The system cannot find the file specified.
+goroutine 123 [running]:
+net/http.(*conn).serve.func1(0xc00009e320)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0x6df2e0, 0xc0003d8090)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x7b2ee0, 0xc0001d02a0, 0x0, 0x0, 0xc0002d1aa8, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:17 +0x2ce
+todo_app/app/controllers.index(0x7b2ee0, 0xc0001d02a0, 0xc000118200)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:23 +0x168
+net/http.HandlerFunc.ServeHTTP(0x7554e8, 0x7b2ee0, 0xc0001d02a0, 0xc000118200)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x98f620, 0x7b2ee0, 0xc0001d02a0, 0xc000118200)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000154000, 0x7b2ee0, 0xc0001d02a0, 0xc000118200)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00009e320, 0x7b3640, 0xc00001eec0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:04:39 server.go:3139: http: panic serving [::1]:51132: template: index.html:11: unexpected "{" in command
+goroutine 20 [running]:
+net/http.(*conn).serve.func1(0xc00011d540)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xe003c0, 0xc000480170)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xee6cc0, 0xc0001ae0e0, 0xe472a0, 0xc0001ac280, 0xc00005d928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xee6cc0, 0xc0001ae0e0, 0xc00025c400)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xe88cd8, 0xee6cc0, 0xc0001ae0e0, 0xc00025c400)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x10c4620, 0xee6cc0, 0xc0001ae0e0, 0xc00025c400)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001ae000, 0xee6cc0, 0xc0001ae0e0, 0xc00025c400)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00011d540, 0xee7420, 0xc00008e000)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:04:39 server.go:3139: http: panic serving [::1]:51241: template: index.html:11: unexpected "{" in command
+goroutine 85 [running]:
+net/http.(*conn).serve.func1(0xc0003080a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xe003c0, 0xc000454160)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xee6cc0, 0xc0002e6000, 0xe472a0, 0xc000054380, 0xc00005d928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xee6cc0, 0xc0002e6000, 0xc00025c200)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xe88cd8, 0xee6cc0, 0xc0002e6000, 0xc00025c200)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x10c4620, 0xee6cc0, 0xc0002e6000, 0xc00025c200)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001ae000, 0xee6cc0, 0xc0002e6000, 0xc00025c200)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0003080a0, 0xee7420, 0xc00016bd80)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:04:39 server.go:3139: http: panic serving [::1]:51239: template: index.html:11: unexpected "{" in command
+goroutine 69 [running]:
+net/http.(*conn).serve.func1(0xc0000d8500)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xe003c0, 0xc000468170)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xee6cc0, 0xc00036e000, 0xe472a0, 0xc000324400, 0xc000059928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xee6cc0, 0xc00036e000, 0xc00025c000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xe88cd8, 0xee6cc0, 0xc00036e000, 0xc00025c000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x10c4620, 0xee6cc0, 0xc00036e000, 0xc00025c000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001ae000, 0xee6cc0, 0xc00036e000, 0xc00025c000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000d8500, 0xee7420, 0xc00016bcc0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:04:39 server.go:3139: http: panic serving [::1]:51240: template: index.html:11: unexpected "{" in command
+goroutine 82 [running]:
+net/http.(*conn).serve.func1(0xc000308000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xe003c0, 0xc0004542c0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xee6cc0, 0xc00036e1c0, 0xe472a0, 0xc000324980, 0xc0000b9928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xee6cc0, 0xc00036e1c0, 0xc000200f00)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xe88cd8, 0xee6cc0, 0xc00036e1c0, 0xc000200f00)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x10c4620, 0xee6cc0, 0xc00036e1c0, 0xc000200f00)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001ae000, 0xee6cc0, 0xc00036e1c0, 0xc000200f00)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000308000, 0xee7420, 0xc00008fe00)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:04:39 server.go:3139: http: panic serving [::1]:51734: template: index.html:11: unexpected "{" in command
+goroutine 257 [running]:
+net/http.(*conn).serve.func1(0xc00011c000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xe003c0, 0xc000481e80)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xee6cc0, 0xc00036e380, 0xe472a0, 0xc000324d00, 0xc0000b9928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xee6cc0, 0xc00036e380, 0xc000200000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xe88cd8, 0xee6cc0, 0xc00036e380, 0xc000200000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x10c4620, 0xee6cc0, 0xc00036e380, 0xc000200000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001ae000, 0xee6cc0, 0xc00036e380, 0xc000200000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc00011c000, 0xee7420, 0xc00008e740)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:04:40 server.go:3139: http: panic serving [::1]:51736: template: index.html:11: unexpected "{" in command
+goroutine 394 [running]:
+net/http.(*conn).serve.func1(0xc0000d8000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xe003c0, 0xc0004686a0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xee6cc0, 0xc0001b4000, 0xe472a0, 0xc000574480, 0xc0000b5928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xee6cc0, 0xc0001b4000, 0xc00025c300)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xe88cd8, 0xee6cc0, 0xc0001b4000, 0xc00025c300)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x10c4620, 0xee6cc0, 0xc0001b4000, 0xc00025c300)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001ae000, 0xee6cc0, 0xc0001b4000, 0xc00025c300)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000d8000, 0xee7420, 0xc00031f040)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:04:45 server.go:3139: http: panic serving [::1]:51739: template: index.html:11: unexpected "{" in command
+goroutine 408 [running]:
+net/http.(*conn).serve.func1(0xc000308140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xe003c0, 0xc00048a7f0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xee6cc0, 0xc0000d6000, 0xe472a0, 0xc000042600, 0xc0000b5928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xee6cc0, 0xc0000d6000, 0xc000050000)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xe88cd8, 0xee6cc0, 0xc0000d6000, 0xc000050000)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x10c4620, 0xee6cc0, 0xc0000d6000, 0xc000050000)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc0001ae000, 0xee6cc0, 0xc0000d6000, 0xc000050000)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000308140, 0xee7420, 0xc00016a6c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:05:00 server.go:3139: http: panic serving [::1]:51756: template: index.html:11: unexpected "{" in command
+goroutine 7 [running]:
+net/http.(*conn).serve.func1(0xc000067680)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xac03c0, 0xc00003f010)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xba6cc0, 0xc0001a00e0, 0xb072a0, 0xc0001b0300, 0xc000061928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xba6cc0, 0xc0001a00e0, 0xc000184100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xb48cd8, 0xba6cc0, 0xc0001a00e0, 0xc000184100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xd84620, 0xba6cc0, 0xc0001a00e0, 0xc000184100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000158000, 0xba6cc0, 0xc0001a00e0, 0xc000184100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000067680, 0xba7420, 0xc00008e000)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:05:00 server.go:3139: http: panic serving [::1]:51757: template: index.html:11: unexpected "{" in command
+goroutine 34 [running]:
+net/http.(*conn).serve.func1(0xc0000a8000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xac03c0, 0xc000090170)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xba6cc0, 0xc0001580e0, 0xb072a0, 0xc000156480, 0xc000061928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xba6cc0, 0xc0001580e0, 0xc000118200)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xb48cd8, 0xba6cc0, 0xc0001580e0, 0xc000118200)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xd84620, 0xba6cc0, 0xc0001580e0, 0xc000118200)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000158000, 0xba6cc0, 0xc0001580e0, 0xc000118200)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000a8000, 0xba7420, 0xc00001e700)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:05:01 server.go:3139: http: panic serving [::1]:51759: template: index.html:11: unexpected "{" in command
+goroutine 22 [running]:
+net/http.(*conn).serve.func1(0xc0001e0000)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xac03c0, 0xc00003f380)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xba6cc0, 0xc0001a02a0, 0xb072a0, 0xc0001b0780, 0xc0001eb928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xba6cc0, 0xc0001a02a0, 0xc0000a0100)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xb48cd8, 0xba6cc0, 0xc0001a02a0, 0xc0000a0100)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xd84620, 0xba6cc0, 0xc0001a02a0, 0xc0000a0100)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000158000, 0xba6cc0, 0xc0001a02a0, 0xc0000a0100)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001e0000, 0xba7420, 0xc00008e340)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:05:04 server.go:3139: http: panic serving [::1]:51761: template: index.html:11: unexpected "{" in command
+goroutine 13 [running]:
+net/http.(*conn).serve.func1(0xc000067720)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xac03c0, 0xc0000903b0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xba6cc0, 0xc0001582a0, 0xb072a0, 0xc000156980, 0xc000061928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xba6cc0, 0xc0001582a0, 0xc000118400)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xb48cd8, 0xba6cc0, 0xc0001582a0, 0xc000118400)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xd84620, 0xba6cc0, 0xc0001582a0, 0xc000118400)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000158000, 0xba6cc0, 0xc0001582a0, 0xc000118400)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc000067720, 0xba7420, 0xc00008e3c0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:05:04 server.go:3139: http: panic serving [::1]:51762: template: index.html:11: unexpected "{" in command
+goroutine 25 [running]:
+net/http.(*conn).serve.func1(0xc0001e00a0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xac03c0, 0xc00019c550)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xba6cc0, 0xc000158460, 0xb072a0, 0xc000156d00, 0xc0001eb928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xba6cc0, 0xc000158460, 0xc0000a0400)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xb48cd8, 0xba6cc0, 0xc000158460, 0xc0000a0400)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xd84620, 0xba6cc0, 0xc000158460, 0xc0000a0400)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000158000, 0xba6cc0, 0xc000158460, 0xc0000a0400)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001e00a0, 0xba7420, 0xc00008e780)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:05:05 server.go:3139: http: panic serving [::1]:51764: template: index.html:11: unexpected "{" in command
+goroutine 26 [running]:
+net/http.(*conn).serve.func1(0xc0001e0140)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xac03c0, 0xc000090540)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xba6cc0, 0xc000158620, 0xb072a0, 0xc000157180, 0xc000065928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xba6cc0, 0xc000158620, 0xc0000a0500)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xb48cd8, 0xba6cc0, 0xc000158620, 0xc0000a0500)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xd84620, 0xba6cc0, 0xc000158620, 0xc0000a0500)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000158000, 0xba6cc0, 0xc000158620, 0xc0000a0500)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001e0140, 0xba7420, 0xc00008e800)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:05:10 server.go:3139: http: panic serving [::1]:51767: template: index.html:11: unexpected "{" in command
+goroutine 55 [running]:
+net/http.(*conn).serve.func1(0xc0000677c0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xac03c0, 0xc0000906c0)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xba6cc0, 0xc0001a0460, 0xb072a0, 0xc0001b0b80, 0xc0001eb928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xba6cc0, 0xc0001a0460, 0xc0000a0600)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xb48cd8, 0xba6cc0, 0xc0001a0460, 0xc0000a0600)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xd84620, 0xba6cc0, 0xc0001a0460, 0xc0000a0600)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000158000, 0xba6cc0, 0xc0001a0460, 0xc0000a0600)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0000677c0, 0xba7420, 0xc00008eac0)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
+2021/04/21 16:05:40 server.go:3139: http: panic serving [::1]:51782: template: index.html:11: unexpected "{" in command
+goroutine 29 [running]:
+net/http.(*conn).serve.func1(0xc0001e01e0)
+	C:/Program Files/Go/src/net/http/server.go:1824 +0x153
+panic(0xac03c0, 0xc00003fd50)
+	C:/Program Files/Go/src/runtime/panic.go:971 +0x49a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0xba6cc0, 0xc0001587e0, 0xb072a0, 0xc000157580, 0xc000065928, 0x3, 0x3)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/server.go:20 +0x2ce
+todo_app/app/controllers.index(0xba6cc0, 0xc0001587e0, 0xc000184500)
+	C:/Users/NOBUH/go/src/todo_app/app/controllers/route_main.go:30 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0xb48cd8, 0xba6cc0, 0xc0001587e0, 0xc000184500)
+	C:/Program Files/Go/src/net/http/server.go:2069 +0x4b
+net/http.(*ServeMux).ServeHTTP(0xd84620, 0xba6cc0, 0xc0001587e0, 0xc000184500)
+	C:/Program Files/Go/src/net/http/server.go:2448 +0x1b7
+net/http.serverHandler.ServeHTTP(0xc000158000, 0xba6cc0, 0xc0001587e0, 0xc000184500)
+	C:/Program Files/Go/src/net/http/server.go:2887 +0xaa
+net/http.(*conn).serve(0xc0001e01e0, 0xba7420, 0xc000198c40)
+	C:/Program Files/Go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3013 +0x3b8
